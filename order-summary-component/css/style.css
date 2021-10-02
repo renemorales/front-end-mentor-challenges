@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
+  background: url('../../images/pattern-background-desktop.svg') no-repeat;
+  background-size: contain;
+  background-position: 0% -175%;
+  background-color: hsla(226, 100%, 94%, 1);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 900;
+}
+
+.order-summary {
+  background-color: #fff;
+  width: 450px;
+  height: 697px;
+  margin: 102px auto;
+  border-radius: 25px;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  text-align: center;
+}
+
+.order-summary-hero img {
+  border-radius: 25px 25px 0 0;
+}
+
+.order-summary-content {
+  padding-top: 45px;
+}
+
+.order-summary-title {
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+
+.order-summary-description {
+  font-weight: 500;
+  padding-top: 18px;
+  padding-bottom: 20px;
+  width: 354px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: hsl(224, 23%, 55%);
+}
+
+.annual-plan {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  margin-left: 10px;
+  width: 400px;
+}
+
+.annual-plan-icon {
+  width: 48px;
+  position: relative;
+  top: -15px;
+}
+
+.annual-plan-description {
+  position: relative;
+  width: 180px;
+}
+.annual-plan-description h3 {
+  position: absolute;
+  font-size: 16px;
+  top: -18px;
+  right: 65px;
+}
+
+.payment-rate {
+  position: absolute;
+  top: 10px;
+  right: 60px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: hsl(224, 23%, 55%);
+}
+
+.change-payment {
+  position: relative;
+  top: 0px;
+  left: 30px;
+}
+
+.change-payment a {
+  font-size: 14px;
+  color: hsl(245, 75%, 52%);
+  font-weight: 900;
+}
+
+.payment-process {
+  padding-top: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.payment-process .btn-payment {
+  background: hsl(245, 75%, 52%);
+  color: #fff;
+  width: 354px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 2;
+  padding-top: 8px;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.payment-process .btn-process:hover {
+  background: hsla(245, 83%, 68%, 1);
+  cursor: pointer;
+}
+
+.payment-process .btn-cancel {
+  padding-top: 30px;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.payment-process .btn-cancel:hover {
+  color: hsla(223, 47%, 23%, 1);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
